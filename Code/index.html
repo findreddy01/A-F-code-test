@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/jquery.min.js"></script>
+	<link href="css/style.css" rel="stylesheet">
+       
+
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>Task Tracker</h1>
+        <p>v2.0</p>
+    </header>
+    <div class="container">
+
+        <div class="formDiv">
+            <h4>Create a Task</h4>
+            <form id="frm">
+                <div class="rowDiv">
+                <p><label>Task Name</label></p>
+                <p><input type="text" class="form-control" name="name" id="personName" size="40"></p>
+                </div>
+                <div class="rowDiv">
+                <p><label>Date</label></p>
+                <p><input type="text" class="form-control"  name="date" id="assaignedDate" size="40"></p>
+                    </div>
+                <div class="rowDiv">
+                <p><label>Assigned To</label></p>
+                <p><input type="text" class="form-control" name="assigned" id="assignto" size="40"></p>
+                </div>
+                <div>
+                <p><button type="button" class="btn btn-default" id="submitBtn">Submit</button></p>
+                </div>
+            </form>
+        </div>
+        <div class="taskDiv">
+            <h4>Existing Tasks</h4>
+			<div class="tableData">
+			<table id="DataTable" border="0" >
+
+			</table>
+			</div>
+        </div>
+		<div style="clear:both"></div>
+    </div>
+
+
+</div>
+<script src="js/script.js"></script>
+       
+
+</body>
+</html>
